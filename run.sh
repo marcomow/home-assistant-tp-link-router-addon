@@ -8,4 +8,4 @@ echo Started Addon
 node -v
 npm -v
 npm install
-node index.js
+npx ts-node src/index.ts

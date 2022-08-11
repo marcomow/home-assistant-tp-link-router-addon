@@ -1,9 +1,9 @@
 {
-    "name": "Starter project for Node.js based Hass.io addons",
+    "name": "TP-Link Router",
     "version": "0.007",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "slug": "nodejs_starter_hassio",
-    "description": "Starter project for Node.js based Hass.io addons",
+    "slug": "tplink_router",
+    "description": "TP-Link Router (Router, AP, Switch, etc.)",
     "startup": "before",
     "boot": "auto",
     "map": [
