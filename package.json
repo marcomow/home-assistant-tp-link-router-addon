@@ -1,7 +1,7 @@
 {
-  "name": "nodejs_starter_hassio",
+  "name": "home_assistant_tplink_router_addon",
   "version": "0.0.1",
-  "description": "Starter project for Node.js based Hass.io addons",
+  "description": "TP-Link Router (Router, AP, Switch, etc.)",
   "main": "index.js",
   "scripts": {
     "reboot": "npx ts-node src/index.ts"
