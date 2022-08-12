@@ -1,14 +1,27 @@
 {
-    "name": "TP-Link Router",
-    "version": "0.007",
-    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "slug": "tplink_router",
-    "description": "TP-Link Router (Router, AP, Switch, etc.)",
-    "startup": "before",
-    "boot": "auto",
-    "map": [
-      "share:rw"
-    ],
-    "options": {},
-    "schema": {}
-  }
+  "name": "Archer C6 Reboot",
+  "version": "0.001",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "slug": "archer_c6_reboot",
+  "description": "Archer C6 Reboot",
+  "startup": "before",
+  "boot": "auto",
+  "map": [
+    "share:rw"
+  ],
+  "options": {
+    "domain": "http://192.168.0.1",
+    "password": "password"
+  },
+  "schema": {
+    "domain": "str",
+    "password": "str"
+  },
+  "init": false
+}
